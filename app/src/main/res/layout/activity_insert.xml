@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Név"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/editTextNev"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ország"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/editTextOrszag"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lakosság"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/editTextLakossag"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Felvesz"
+        android:id="@+id/buttonFelvesz"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vissza"
+        android:id="@+id/buttonVissza"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"/>
+
+
+</LinearLayout>
